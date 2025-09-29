@@ -1,9 +1,8 @@
 # 🎵 Automated-Music-Data-ETL-Analytics-Pipeline---using-python
 
-
 > **Project in Brief**
 >
-> The goal is to build an **ETL pipeline** that automatically collects and processes trending music data (e.g., global top songs from Spotify) every week. Over time, this will create a dataset that can help your client (a music label) **analyze patterns in popular music** (e.g., genres, artists, song structures) and potentially guide their own production.
+> The goal is to build an **ETL pipeline** that automatically collects and processes trending music data (e.g., global top songs from Spotify) every week. Over time, this will create a dataset that ca[...]
 
 ---
 
@@ -11,10 +10,9 @@
 
 `Spotify API → Lambda Extract → Raw S3 → Lambda Transform → Processed S3 → Glue → Athena`
 
-![Architecture diagram](<img width="948" height="556" alt="image" src="https://github.com/user-attachments/assets/be12784a-2340-41ac-b519-4667902faacf" />
-)
+![Architecture diagram](architecture.png)
 
-> Brief: A Lambda-based, serverless pipeline that extracts playlist data from Spotify, stores raw JSON in S3, triggers a second Lambda to transform and persist cleaned Parquet/CSV artifacts, catalogs them with Glue, and enables SQL analytics through Athena.
+> Brief: A Lambda-based, serverless pipeline that extracts playlist data from Spotify, stores raw JSON in S3, triggers a second Lambda to transform and persist cleaned Parquet/CSV artifacts, catalogs [...]
 
 ---
 
