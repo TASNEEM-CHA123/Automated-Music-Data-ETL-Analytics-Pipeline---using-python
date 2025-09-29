@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Database files
+*.sqlite3
+*.db
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Sensitive files
+*.pem
+*.key
+credentials.json
+
+# Zip/layers
+*.zip
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Ignore compiled extensions
+*.so
+
+# Ignore the local spotipy layer zip if present
+spotipy_layer.zip
